@@ -20,6 +20,9 @@ importers:
       '@tiptap/vue-3':
         specifier: ^2.4.0
         version: 2.4.0(@tiptap/core@2.4.0(@tiptap/pm@2.4.0))(@tiptap/pm@2.4.0)(vue@3.4.27)
+      animejs:
+        specifier: ^3.2.2
+        version: 3.2.2
       pinia:
         specifier: ^2.1.7
         version: 2.1.7(vue@3.4.27)
@@ -33,6 +36,9 @@ importers:
       '@iconify-json/tabler':
         specifier: ^1.1.112
         version: 1.1.112
+      '@types/animejs':
+        specifier: ^3.1.12
+        version: 3.1.12
       '@unocss/transformer-compile-class':
         specifier: ^0.60.3
         version: 0.60.3
@@ -726,6 +732,9 @@ packages:
       '@tiptap/pm': ^2.0.0
       vue: ^3.0.0
 
+  '@types/animejs@3.1.12':
+    resolution: {integrity: sha512-fpdH+ZtlO0kqjTOqRaBdsEmvpRNOayI8k4EVkEtitL5l6wducDOXk0rgQgfZqWf/ZX9DzXrHf257S5i9xTcISQ==}
+
   '@types/d3-timer@2.0.3':
     resolution: {integrity: sha512-jhAJzaanK5LqyLQ50jJNIrB8fjL9gwWZTgYjevPvkDLMU+kTAZkYsobI59nYoeSrH1PucuyJEi247Pb90t6XUg==}
 
@@ -870,6 +879,9 @@ packages:
     resolution: {integrity: sha512-Y9rRfJG5jcKOE0CLisYbojUjIrIEE7AGMzA/Sm4BslANhbS+cDMpgBdcPT91oJ7OuJ9hYJBx59RjbhxVnrF8Xg==}
     engines: {node: '>=0.4.0'}
     hasBin: true
+
+  animejs@3.2.2:
+    resolution: {integrity: sha512-Ao95qWLpDPXXM+WrmwcKbl6uNlC5tjnowlaRYtuVDHHoygjtIPfDUoK9NthrlZsQSKjZXlmji2TrBUAVbiH0LQ==}
 
   ansi-styles@3.2.1:
     resolution: {integrity: sha512-VT0ZI6kZRdTh8YyJw3SMbYm/u+NqfsAxEpWO0Pf9sq8/e94WxxOpPKx9FR1FlyCtOVDNOQ+8ntlqFxiRc+r5qA==}
@@ -2619,6 +2631,8 @@ snapshots:
       '@tiptap/pm': 2.4.0
       vue: 3.4.27
 
+  '@types/animejs@3.1.12': {}
+
   '@types/d3-timer@2.0.3': {}
 
   '@types/debug@4.1.12':
@@ -2848,6 +2862,8 @@ snapshots:
   '@vue/shared@3.4.27': {}
 
   acorn@8.11.3: {}
+
+  animejs@3.2.2: {}
 
   ansi-styles@3.2.1:
     dependencies:

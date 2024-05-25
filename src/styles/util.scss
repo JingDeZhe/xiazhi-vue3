@@ -39,9 +39,19 @@ code {
 }
 
 .all-center {
-  --at-apply: flex items-center justify-center;
+  --at-apply: flex flex-col items-center justify-center;
 }
 
 .full-ctn {
   --at-apply: h-full overflow-hidden;
+}
+
+.screen-box {
+  position: fixed;
+  inset: 0;
+  z-index: 10;
+}
+
+.theme-dark {
+  --at-apply: bg-dark-600 text-light-800;
 }

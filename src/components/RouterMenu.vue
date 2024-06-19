@@ -44,7 +44,7 @@ const routeTree = computed(() => buildRouteTree(routes))
       </el-menu>
     </el-scrollbar>
     <template #reference>
-      <el-button class="m-2 fixed bottom-0 left-0">
+      <el-button type="info" class="pop-btn">
         <i class="i-tabler-menu-2"></i>
       </el-button>
     </template>
@@ -52,6 +52,12 @@ const routeTree = computed(() => buildRouteTree(routes))
 </template>
 
 <style lang="scss">
+.pop-btn {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  z-index: 1000;
+}
 .menu-pop {
   overflow: hidden;
   padding: 0 !important;

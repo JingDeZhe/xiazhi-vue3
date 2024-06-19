@@ -38,11 +38,25 @@ code {
   font-family: 'Fira Code', lxgw, monospace;
 }
 
+@supports (font-variation-settings: normal) {
+  code {
+    font-family: 'Fira Code VF', lxgw, monospace;
+  }
+}
+
 .all-center {
   --at-apply: flex flex-col items-center justify-center;
 }
 
-.full-ctn {
+.col-ctn {
+  --at-apply: flex flex-col overflow-hidden;
+}
+.ctn-body {
+  --at-apply: flex-1;
+}
+
+.full-ctn,
+.app-ctn {
   --at-apply: h-full overflow-hidden;
 }
 

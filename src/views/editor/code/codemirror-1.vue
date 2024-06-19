@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <div>home</div>
+  <div></div>
 </template>
 
 <style lang="scss"></style>

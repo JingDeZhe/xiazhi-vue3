@@ -39,7 +39,7 @@ const routeTree = computed(() => buildRouteTree(routes))
 <template>
   <el-popover popper-class="menu-pop" placement="top-start" :width="400" trigger="click">
     <el-scrollbar height="60vh">
-      <el-menu mode="vertical" router>
+      <el-menu mode="vertical">
         <menu-item v-for="d in routeTree" :item="d"></menu-item>
       </el-menu>
     </el-scrollbar>

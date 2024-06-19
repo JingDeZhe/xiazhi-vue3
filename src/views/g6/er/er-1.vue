@@ -1,7 +1,4 @@
 <script setup>
-/**
- * 5.0版本bug太多，暂且略过
- */
 import { Graph } from '@antv/g6'
 import { onMounted, ref } from 'vue'
 
